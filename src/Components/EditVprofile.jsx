@@ -45,6 +45,8 @@ const EditVProfile = () => {
   const [showToast,setShowToast] = useState(false)
   const navigate = useNavigate()
   const [checkme ,setcheckme] = useState(true)
+  const [adddata1,setadddata1] = useState('')
+  const [adddata2,setadddata2] = useState('')
 let data;
   useEffect(() => {
     fetch('https://tihd2iw3fd.execute-api.us-west-2.amazonaws.com/get-profile', {
@@ -72,6 +74,8 @@ let data;
         setCoverPreview(data[0].cover_image)
         setOtherImagePreviews(data[0].other_image1)
         console.log(data[0].other_image1,'\n shuuu')
+        setadddata1(data[0].expertise)
+        setadddata2(data[0].workingHours)
         if (data[0].expertise)
         setcheckme(false)        
         

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { FaArrowLeft, FaEllipsisH, FaThumbsUp,FaWhatsapp,FaMapMarkerAlt } from 'react-icons/fa';
 import { useNavigate, useParams } from 'react-router-dom';
 import Enquiry from './Enquiry';
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 function HomeProfile() {
 
@@ -440,7 +442,7 @@ useEffect(() => {
       )}
       
     </div>}
-    {name==='Vendor' || expertise===false && <p className='text-center text-xl mt-[3rem]'>Profile is not updated for listing</p>}
+    {name==='Vendor' || expertise===false && <div className='text-center text-xl mt-[3rem]'><p>Profile is not updated for listing</p><CircularProgress/></div>}
     </div>
   );
 }

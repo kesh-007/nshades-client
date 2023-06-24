@@ -64,7 +64,9 @@ function ForgotPassword() {
             type="submit"
             onClick={handleSubmit}
             disabled={isloading}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            key={loading}
+            className={loading?"bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline":
+          "bg-blue-200  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"}
           >
             <p>{loading ?'loading...':'Reset Password'}</p>
           </button>

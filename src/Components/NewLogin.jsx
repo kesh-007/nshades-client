@@ -46,6 +46,7 @@ function NewLogin() {
       })
       .catch(error => {
         console.error('Error:', error);
+        alert("Error please try again later")
         // Display error message or handle error
       });
   };

@@ -442,7 +442,7 @@ useEffect(() => {
       )}
       
     </div>}
-    {name==='Vendor' || expertise===false && <div className='text-center text-xl mt-[3rem]'><p>Profile is not updated for listing</p><CircularProgress/></div>}
+    {name==='Vendor' || expertise===false && <div className='text-center text-xl mt-[3rem]'><p>Profile is not updated for listing</p><CircularProgress/><p>Try refreshing the page</p></div>}
     </div>
   );
 }

@@ -333,6 +333,149 @@ useEffect(() => {
 ))}
 
       {}
+      <p className='mt-[2.5rem] text-gray-600 ml-3'>Buy Now</p>
+      <div className='flex mt-[rem] mb-3'>
+        <div>
+        <a href="https://www.amazon.in/realme-Segment-Fastest-Charging-High-res/dp/B0BZ48H8JX?pd_rd_w=jrbCi&content-id=amzn1.sym.471a6bd7-a2cb-4fab-96e9-c9d4de97930b&pf_rd_p=471a6bd7-a2cb-4fab-96e9-c9d4de97930b&pf_rd_r=Q6Z9ANCWZWCJFGPMZS1D&pd_rd_wg=ergtS&pd_rd_r=73e494df-ffc2-4dbc-9692-cc6558ebf7b4&pd_rd_i=B0BZ48H8JX&psc=1&linkCode=li2&tag=keshavbaskar-21&linkId=97ed04580541cb5421227644a3221e5e&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BZ48H8JX&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BZ48H8JX"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Fashion-Frill-Jewellery-Vertical-Stainless/dp/B0BH8H9KSL?crid=13PFIZLVH44OT&keywords=chain&qid=1687763504&sprefix=chai%2Caps%2C432&sr=8-5&linkCode=li2&tag=keshavbaskar-21&linkId=dc6f4398a51fe205af2f677dcba93dcf&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BH8H9KSL&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BH8H9KSL"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Apple-iPhone-14-128GB-Blue/dp/B0BDK62PDX?crid=1F5W36EB3ANJ6&keywords=iphone&qid=1687764274&sprefix=ipho%2Caps%2C322&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li2&tag=keshavbaskar-21&linkId=a7d7aaba2574367eb4aa1b556b6d92be&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BDK62PDX&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BDK62PDX"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/UNEQUETREND-Fashion-Digital-Samurai-Simple/dp/B07R81QF8Z?keywords=metal+watch&qid=1687760290&sr=8-25&linkCode=li2&tag=keshavbaskar-21&linkId=4d475437f64ebb6a71ffa0cde6aba48d&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07R81QF8Z&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN" alt="" />
+</a>
+<img src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B07R81QF8Z" width="1" height="1" border="0" alt="" style={{ border: 'none !important', margin: '0px !important' }} />
+
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Redmi-Power-Black-128GB-Storage/dp/B09Y64H8VS?crid=1PE37Z95NBIQU&keywords=redmi+mobile&qid=1687763270&sprefix=redmi+mobi%2Caps%2C384&sr=8-2&linkCode=li2&tag=keshavbaskar-21&linkId=74a5e2d40bfb4fbeecb06208e9324626&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09Y64H8VS&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B09Y64H8VS"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Shocknshop-Analogue-Black-Stainless-W219/dp/B07RXZPMZ8?keywords=metal+watch&qid=1687760290&sr=8-16&linkCode=li2&tag=keshavbaskar-21&linkId=a67fdc9f1fa53ee66dc73fd364094128&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07RXZPMZ8&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt="Amazon Ad"
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B07RXZPMZ8"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Zebronics-Bluetooth-Calling-Assistant-Fitness/dp/B0B2JGQ9TT?keywords=metal+watch&qid=1687760290&sr=8-27&linkCode=li2&tag=keshavbaskar-21&linkId=c4e59419fd9ba210ea665f4878f848ec&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2JGQ9TT&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt="Amazon Ad"
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0B2JGQ9TT"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Samsung-Storage-MediaTek-Octa-core-Processor/dp/B0BMGB3CH9?crid=3IXBAJ166V05T&keywords=samsung&qid=1687764340&sprefix=samsun%2Caps%2C358&sr=8-4&linkCode=li2&tag=keshavbaskar-21&linkId=8b92ec07d1a138e31c898d6d2496dcaa&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMGB3CH9&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BMGB3CH9"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+      </div>
+      </div>
+      <div className='flex justify-end'>
+        <a href='https://amzn.to/3NKlyQn' target="_blank"><button className='text-white bg-blue-500 hover:scale-110 rounded-md p-2'>More</button></a>
+        </div>
+      
 
       {/* Add Comment Section */}
       <div className='flex max-md:flex-col'>

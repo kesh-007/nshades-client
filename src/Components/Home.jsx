@@ -5,6 +5,8 @@ import NavBar from './NavBar';
 import Card from './Cards';
 import AdUnit from './AdUnit';
 import Fuse from 'fuse.js';
+import Iframe from 'react-iframe';
+
 
 function Home() {
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -94,8 +96,159 @@ function Home() {
           />
         </div>
       </div>
-      <a target="_blank" href="https://www.amazon.in/gp/search?ie=UTF8&tag=keshavbaskar-21&linkCode=ur2&linkId=e58438f74211d9b64ef7e0d5897d02eb&camp=3638&creative=24630&index=computers&keywords=Macbook">Laptops</a>
+      <p className='mt-[2.5rem] text-gray-600 ml-3'>Buy Now</p>
+      <div className='flex mt-[rem] mb-3'>
+        <div>
+      <a
+        href="https://www.amazon.in/Apple-MacBook-Chip-13-inch-256GB/dp/B08N5W4NNB?keywords=Macbook&qid=1687759226&s=computers&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li2&tag=keshavbaskar-21&linkId=31c2be18ea753979f74c75aabf295fd9&language=en_IN&ref_=as_li_ss_il"
+        target="_blank"
+      >
+        <img
+          border="0"
+          src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08N5W4NNB&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+          alt="Product Image"
+        />
+      </a>
+      <img
+        src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B08N5W4NNB"
+        width="1"
+        height="1"
+        border="0"
+        alt=""
+        style={{ border: 'none !important', margin: '0px !important' }}
+      />
+      </div>
+      <div>
+      <a href="https://www.amazon.in/HP-Micro-Edge-Anti-Glare-15s-fq5111TU/dp/B0B6F5V23N?keywords=hp+laptop+i5+12th+generation&qid=1687759954&s=computers&sprefix=hp+%2Ccomputers%2C362&sr=1-3&linkCode=li2&tag=keshavbaskar-21&linkId=af4b515e24c2b37fe1ce00749a0cddff&language=en_IN&ref_=as_li_ss_il" target="_blank">
+        <img
+          border="0"
+          src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B6F5V23N&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+          alt="Amazon Ad"
+        />
+      </a>
+      <img
+        src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0B6F5V23N"
+        width="1"
+        height="1"
+        border="0"
+        alt=""
+        style={{ border: 'none !important', margin: '0px !important' }}
+      />
 
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Samsung-Storage-MediaTek-Octa-core-Processor/dp/B0BMGB3CH9?crid=3IXBAJ166V05T&keywords=samsung&qid=1687764340&sprefix=samsun%2Caps%2C358&sr=8-4&linkCode=li2&tag=keshavbaskar-21&linkId=8b92ec07d1a138e31c898d6d2496dcaa&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BMGB3CH9&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BMGB3CH9"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Redmi-Mystique-AMOLED-Snapdragon%C2%AE-Triple/dp/B0BQ3PYMCZ?crid=6V1JAQAZGXFJ&keywords=redmi&qid=1687764627&sprefix=redmi%2Caps%2C367&sr=8-8&linkCode=li2&tag=keshavbaskar-21&linkId=242e91596cedc99c53ed9237b1f250c8&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BQ3PYMCZ&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0BQ3PYMCZ"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/YAMA-Electrical-Emergency-Screwdriver-Accessories/dp/B0C37592VS?keywords=electrical+set&qid=1687764696&sprefix=electrical+set%2Caps%2C299&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li2&tag=keshavbaskar-21&linkId=e0f53d79536efe4c79027a7b3bcb7626&language=en_IN&ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C37592VS&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt=""
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0C37592VS"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none', margin: '0' }}
+/>
+
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Shocknshop-Analogue-Black-Stainless-W219/dp/B07RXZPMZ8?keywords=metal+watch&qid=1687760290&sr=8-16&linkCode=li2&tag=keshavbaskar-21&linkId=a67fdc9f1fa53ee66dc73fd364094128&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07RXZPMZ8&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt="Amazon Ad"
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B07RXZPMZ8"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Zebronics-Bluetooth-Calling-Assistant-Fitness/dp/B0B2JGQ9TT?keywords=metal+watch&qid=1687760290&sr=8-27&linkCode=li2&tag=keshavbaskar-21&linkId=c4e59419fd9ba210ea665f4878f848ec&language=en_IN&ref_=as_li_ss_il" target="_blank">
+  <img
+    border="0"
+    src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B2JGQ9TT&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+    alt="Amazon Ad"
+  />
+</a>
+<img
+  src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B0B2JGQ9TT"
+  width="1"
+  height="1"
+  border="0"
+  alt=""
+  style={{ border: 'none !important', margin: '0px !important' }}
+/>
+
+      </div>
+      <div>
+      <a href="https://www.amazon.in/Airdopes-141-Bluetooth-Wireless-Playtime/dp/B09N3XMZ5F?crid=2C7GSRWH598O9&keywords=airpods&qid=1687760441&refinements=p_89%3AboAt&rnid=3837712031&s=electronics&sprefix=airpod%2Caps%2C291&sr=1-1&linkCode=li2&tag=keshavbaskar-21&linkId=4a5d9c9122698e67f71ec7f5440b4eb2&language=en_IN&ref_=as_li_ss_il" target="_blank">
+        <img
+          border="0"
+          src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09N3XMZ5F&Format=_SL160_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=keshavbaskar-21&language=en_IN"
+          alt="Amazon Ad"
+        />
+      </a>
+      <img
+        src="https://ir-in.amazon-adsystem.com/e/ir?t=keshavbaskar-21&language=en_IN&l=li2&o=31&a=B09N3XMZ5F"
+        width="1"
+        height="1"
+        border="0"
+        alt=""
+        style={{ border: 'none !important', margin: '0px !important' }}
+      />
+      </div>
+      </div>
+      <div className='flex justify-end'>
+        <a href='https://amzn.to/3NKlyQn' target="_blank"><button className='text-white bg-blue-500 hover:scale-110 rounded-md p-2'>More</button></a>
+        </div>
 
       <div className="justify-start ml-[2rem] max-md:flex-col max-md:ml-0 mt-[1rem] max-md:mt-0">
         {filteredCards.map((data) => (

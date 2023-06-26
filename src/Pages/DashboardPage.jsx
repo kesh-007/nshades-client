@@ -5,6 +5,8 @@ import { useEffect } from 'react'
 import {CSVLink} from 'react-csv'
 import AdUnit from '../Components/AdUnit'
 import { moment } from 'moment'
+import { Helmet } from 'react-helmet';
+
 import { FiDownload } from 'react-icons/fi';
 
 function DashboardPage() {
@@ -110,9 +112,10 @@ const csvData = data.map(row => ({
         </div>
 
 
+        <Helmet>
         <script async="async" data-cfasync="false" src="//pl19854220.highrevenuegate.com/f198cd473bf0abf18d5001f1b3f8e693/invoke.js"></script>
+</Helmet>
 <div id="container-f198cd473bf0abf18d5001f1b3f8e693"></div>
-        
 
 
     </div>

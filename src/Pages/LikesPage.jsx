@@ -3,6 +3,8 @@ import { FiHeart } from 'react-icons/fi';
 import Example from '../Components/NavBar';
 import { fadeIn } from 'react-animations';
 import classNames from 'classnames';
+import { Helmet } from 'react-helmet';
+
 
 const LikesPage = () => {
   const email = localStorage.getItem('email');
@@ -50,6 +52,11 @@ const LikesPage = () => {
         ))}
         {likes.length===0 && <h1>No user liked your profile</h1>}
       </div>
+      <Helmet className='mt-[3rem]'>
+        <script async="async" data-cfasync="false" src="//pl19854220.highrevenuegate.com/f198cd473bf0abf18d5001f1b3f8e693/invoke.js"></script>
+</Helmet>
+<div id="container-f198cd473bf0abf18d5001f1b3f8e693"></div>
+
     </div>
   );
 };

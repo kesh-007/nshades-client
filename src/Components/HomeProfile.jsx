@@ -333,7 +333,7 @@ useEffect(() => {
 ))}
 
       {}
-      <p className='mt-[2.5rem] text-gray-600 ml-3'>Buy Now</p>
+      <p className='mt-[2.5rem] text-gray-600 ml-3'>ADVERTISEMENT</p>
       <div className='flex mt-[rem] mb-3'>
         <div>
         <a href="https://www.amazon.in/realme-Segment-Fastest-Charging-High-res/dp/B0BZ48H8JX?pd_rd_w=jrbCi&content-id=amzn1.sym.471a6bd7-a2cb-4fab-96e9-c9d4de97930b&pf_rd_p=471a6bd7-a2cb-4fab-96e9-c9d4de97930b&pf_rd_r=Q6Z9ANCWZWCJFGPMZS1D&pd_rd_wg=ergtS&pd_rd_r=73e494df-ffc2-4dbc-9692-cc6558ebf7b4&pd_rd_i=B0BZ48H8JX&psc=1&linkCode=li2&tag=keshavbaskar-21&linkId=97ed04580541cb5421227644a3221e5e&language=en_IN&ref_=as_li_ss_il" target="_blank">

@@ -96,7 +96,7 @@ function Home() {
           />
         </div>
       </div>
-      <p className='mt-[2.5rem] text-gray-600 ml-3'>Buy Now</p>
+      <p className='mt-[2.5rem] text-gray-600 ml-3'>ADVERTISEMENT</p>
       <div className='flex mt-[rem] mb-3'>
         <div>
       <a

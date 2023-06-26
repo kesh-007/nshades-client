@@ -94,6 +94,8 @@ function Home() {
           />
         </div>
       </div>
+      <a target="_blank" href="https://www.amazon.in/gp/search?ie=UTF8&tag=keshavbaskar-21&linkCode=ur2&linkId=e58438f74211d9b64ef7e0d5897d02eb&camp=3638&creative=24630&index=computers&keywords=Macbook">Laptops</a>
+
 
       <div className="justify-start ml-[2rem] max-md:flex-col max-md:ml-0 mt-[1rem] max-md:mt-0">
         {filteredCards.map((data) => (

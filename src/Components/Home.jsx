@@ -6,6 +6,8 @@ import Card from './Cards';
 import AdUnit from './AdUnit';
 import Fuse from 'fuse.js';
 import Iframe from 'react-iframe';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 
 function Home() {
@@ -21,6 +23,16 @@ function Home() {
   const handleMoreOptionsClick = () => {
     setShowPopup(true);
   };
+
+
+  useEffect(() => {
+    const hasDisplayedToast = localStorage.getItem('hasDisplayedToast');
+    if (!hasDisplayedToast) {
+      toast.info('We are experiencing high traffic in the application. Please hold on and stay calm. If the data is not loading, please refresh the page.');
+      localStorage.setItem('hasDisplayedToast', true);
+    }
+  }, []);
+
 
   const handleReportClick = () => {
     setShowPopup(false);
@@ -75,6 +87,7 @@ function Home() {
   return (
     <div>
       <NavBar />
+      <Toaster/>
       <div className="flex items-center mt-[2rem] ml-2 mr-2">
         <div className="relative flex-grow">
           <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />

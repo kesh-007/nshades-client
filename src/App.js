@@ -15,13 +15,15 @@ import ForgotPassword from './Pages/ForgotPassword';
 import ChangePasswordPage from './Pages/ChangePasswordPage';
 import NotFoundPage from './Pages/NotFoundPage';
 
+
 function App() {
   let exptime = localStorage.getItem('exptime')
   const current = new Date().getTime();
 
     if (current > exptime) {
-      localStorage.removeItem('token');
+      localStorage.removeItem('email');
       localStorage.removeItem('exptime')
+      localStorage.removeItem('hasDisplayedToast')
     }
     const user = localStorage.getItem('email')
 

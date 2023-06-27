@@ -27,9 +27,10 @@ function Home() {
 
   useEffect(() => {
     const hasDisplayedToast = localStorage.getItem('hasDisplayedToast');
+    console.log(hasDisplayedToast,'myval')
     if (!hasDisplayedToast) {
-      toast.info('We are experiencing high traffic in the application. Please hold on and stay calm. If the data is not loading, please refresh the page.');
-      localStorage.setItem('hasDisplayedToast', true);
+      toast('Dear user, we are currently experiencing a high volume of traffic in our application. We kindly request your patience and understanding during this time. If the data is not loading, we recommend refreshing the page. Thank you for your cooperation.');
+      localStorage.setItem('hasDisplayedToast', "yes came");
     }
   }, []);
 

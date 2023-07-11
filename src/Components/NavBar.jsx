@@ -65,7 +65,7 @@ const navigate = useNavigate()
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <a href='/home'>
-                  <p className='text-orange-500 text-2xl'>NS<span className='text-black'>hades</span></p>
+                  <p className='text-black text-2xl'>NS<span className='text-black'>hades</span></p>
                   </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -193,7 +193,7 @@ const navigate = useNavigate()
                 ) : (
                   <div className='flex'>
                     <button onClick={()=>navigate('/createaccount')} className="p-1  px-5  max-md:hidden  ">Sign Up</button>
-                    <button onClick ={()=>navigate('/login')} className="bg-orange-500 text-white p-2   px-5 mx-2 rounded-full max-md:p-1 max-md:bg-white max-md:text-black">Sign In</button>
+                    <button onClick ={()=>navigate('/login')} className="bg-black text-white p-2   px-5 mx-2 rounded-full max-md:p-1 max-md:bg-white max-md:text-black">Sign In</button>
 
                   </div>
                 )}
